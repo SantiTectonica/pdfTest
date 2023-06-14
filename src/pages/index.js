@@ -15,7 +15,21 @@ const styles = StyleSheet.create({
   }
 });
 
+
+
 const IndexPage = () => {
+
+  const [isWindow, setIsWindow] = React.useState(false);
+
+  React.useEffect(() => {
+    
+    setIsWindow(true);
+
+    return ()=> setIsWindow(false);
+  }, []);
+
+  if (!isWindow) return null;
+
   return (
     <main>
       
