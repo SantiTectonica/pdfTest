@@ -55,8 +55,9 @@ const IndexPage = () => {
         data-mobile-autofocus="false">
 
       </div>
-
+      <Script type='text/javascript' src='https://static.everyaction.com/ea-actiontag/at.js' crossorigin='anonymous' />
     </main>
+    
   )
 }
 
@@ -69,6 +70,6 @@ export const Head = () => (
     <title>Home Page</title>
     <link rel='preload' href='https://static.everyaction.com/ea-actiontag/at.js' as='script' crossorigin='anonymous' />
     <link rel='preload' href='https://static.everyaction.com/ea-actiontag/at.min.css' as='style' />
-    <Script type='text/javascript' src='https://static.everyaction.com/ea-actiontag/at.js' crossorigin='anonymous' />
+    
   </>
 )
