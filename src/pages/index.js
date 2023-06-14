@@ -64,7 +64,7 @@ const IndexPage = () => {
 export default IndexPage
 
 /*export const Head = () => <title>Home Page</title> */
-/*
+
 export const Head = () => (
   <>
     <title>Home Page</title>
@@ -72,4 +72,4 @@ export const Head = () => (
     <link rel='preload' href='https://static.everyaction.com/ea-actiontag/at.min.css' as='style' />
     <script type='text/javascript' src='https://static.everyaction.com/ea-actiontag/at.js' crossorigin='anonymous'></script>
   </>
-)*/
+)
